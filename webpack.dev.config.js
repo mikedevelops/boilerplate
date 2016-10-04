@@ -1,7 +1,6 @@
 var path = require('path');
 var precss = require('precss');
 var autoprefixer = require('autoprefixer');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -32,8 +31,5 @@ module.exports = {
     postcss: function () {
         return [precss, autoprefixer]
     },
-    plugins: [
-        new CleanWebpackPlugin(['public/dist'])
-    ],
     devtool: 'source-map'
 };

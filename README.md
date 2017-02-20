@@ -21,6 +21,7 @@ A starting point. SCSS compilation & Javascript Bundling.
 - Compile SCSS
 - Autoprefix CSS
 - Bundle Javascript [es2015]
+- Lint Javascript
 - Serve with browser-sync
 
 `npm prod`
@@ -28,4 +29,5 @@ A starting point. SCSS compilation & Javascript Bundling.
 - Compile SCSS [compressed]
 - Autoprefix CSS
 - Bundle Javascript
+- Lint Javascript
 - Minify Javascript
